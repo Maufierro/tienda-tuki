@@ -1,0 +1,116 @@
+/* Estilos generales */
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;  
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    background-color: red;
+    }
+  
+  .container {
+    flex: 1;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  
+  
+  /* Estilos del encabezado */
+  
+  
+  header {
+    background-color: #2b0202;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #ff0000; /* Cambiar color en hover */
+  }
+  
+  
+  
+  /* Estilos de la sección "Acerca de" */
+  #about {
+    flex: 1;
+    display: flex;
+    background-color: rgb(0, 0, 0, 0.5);
+    color: white;
+    padding: 50px 0;
+  }
+  
+  #about h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #e4afaf;
+  }
+  
+  #about p {
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+  }
+  
+  
+  
+  /* Estilos del pie de página */
+  footer {
+    margin-top: auto;   
+    color: white;
+    background-color: #ff0000;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  footer ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
