@@ -64,6 +64,75 @@ body {
   }
   
   
+/* Estilo del contenido del carousel */
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+  padding: 10px;
+  color: #fff; /* Color del texto */
+}
+
+.carousel-caption h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.carousel-caption p {
+  font-size: 16px;
+}
+
+/* Estilo del contenedor del carousel */
+.carousel {
+  position: relative;
+}
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-item {
+  position: relative;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.carousel-item.active {
+  display: flex;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-indicators li {
+  background-color: #fff;
+  border: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.carousel-indicators .active {
+  background-color: #888;
+}
+
+/*  
   
   /* Estilos de la sección "Acerca de" */
   #about {
